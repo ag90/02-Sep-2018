@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package SeleniumTest;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+/**
+ * @author guptaav
+ *
+ */
+public class JavaScript {
+	
+	WebDriver driver;
+	@Test
+	public void JS(){
+		
+		  
+		  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+		 
+		  ChromeOptions chrome=new ChromeOptions();
+		  chrome.addArguments("disable-infobars");
+		  
+		  driver=new ChromeDriver(chrome);
+		  driver.manage().window().maximize();
+		  driver.get("https://www.freecrm.com");
+		
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("scroll(0,200");
+		js.executeScript("document.getElementByName('username').values='agupta3'");
+		js.executeScript("document.getElementByName('password').values='test@123'");		
+
+	}
+}

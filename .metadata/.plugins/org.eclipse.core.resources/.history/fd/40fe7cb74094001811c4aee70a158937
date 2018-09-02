@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package SeleniumTest;
+
+/**
+ * @author guptaav
+ *
+ */
+public class JavaScript {
+	
+	
+	@Test
+	public void JS(){
+		
+	}
+
+}

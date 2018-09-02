@@ -1,0 +1,27 @@
+package DemoList;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+	
+	
+
+	public static void main(String[] args) {
+
+
+		ArrayList list=new ArrayList();
+		list.add("Java");
+		list.add("Selenium beginner");
+		list.add("Selenium expert");
+		list.add("Xpath");
+		list.add("Selenium expert");
+		
+		for (Object ele : list) {
+			
+			System.out.println(ele);
+		}
+		
+		
+	}
+
+}

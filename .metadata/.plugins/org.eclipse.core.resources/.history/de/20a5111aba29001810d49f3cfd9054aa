@@ -1,0 +1,27 @@
+package HashMap;
+
+import java.util.HashMap;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+
+
+		HashMap<Integer, String> hm=new HashMap<Integer, String>();
+		
+		hm.put(1,"Naveen");
+		hm.put(2,"Tom");
+		hm.put(3,"Avi");
+		hm.put(4,"Vibha");
+		
+		System.out.println(hm.size());
+
+		for (int i = 0; i < hm.size(); i++) {
+			System.out.println(hm.get(hm));
+		}{
+			
+		}
+		
+	}
+
+}

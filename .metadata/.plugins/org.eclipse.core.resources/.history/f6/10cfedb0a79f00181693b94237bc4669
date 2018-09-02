@@ -1,0 +1,22 @@
+
+public class A {
+	
+	
+	public A(){
+		
+		System.out.println("Default constructor");
+	}
+	
+	public A(int i){
+		
+		System.out.println("Single param. constructor");
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

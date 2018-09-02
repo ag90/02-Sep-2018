@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package Com.crm.qa.utilty;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+/**
+ * @author guptaav
+ *
+ */
+public class Utility {
+	
+	 static Properties prop;
+	 static WebDriver driver;
+	
+	public static void ReadData(){
+		
+		try {
+			
+		prop=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\guptaav\\Mars_workspace\\FreeCRMTest\\src\\main\\java\\Com\\crm\\qa\\Config\\ConfigFile.properties");
+		prop.load(fis);
+
+			
+		}
+		catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+			
+		
+		public void initilization(){
+			
+		}
+		
+	
+	
+	
+	
+
+}

@@ -1,0 +1,98 @@
+package SeleniumTest;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class HandleMultipleWindow {
+	
+	WebDriver driver;
+	
+	
+	
+  @Test
+  public void f() throws InterruptedException {
+	  
+	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+      driver=new ChromeDriver();
+      driver.manage().window().maximize();
+      driver.get("https://www.irctc.co.in/nget/train-search");
+      
+      String ParentWindow1=driver.getWindowHandle();
+      System.out.println(ParentWindow1); 
+      
+      Actions action=new Actions(driver);
+      WebElement HOLIDAYS =driver.findElement(By.xpath("//a[contains(text(),' HOLIDAYS ')]"));
+      action.moveToElement(HOLIDAYS).build().perform();
+      
+      WebElement Accommodations=driver.findElement(By.xpath("//span[contains(text(),'Accommodations')]"));
+      action.moveToElement(Accommodations).build().perform();
+      
+      WebElement HotelandLounge=driver.findElement(By.xpath("//span[contains(text(),'Hotel and Lounge')]"));
+      action.click(HotelandLounge).build().perform();
+      
+      Thread.sleep(5000);
+      
+      Set<String> HandlingTwoWindows=driver.getWindowHandles();
+      System.out.println(HandlingTwoWindows.size());
+      System.out.println(HandlingTwoWindows);
+      
+    
+      for ( String HotelandLoungeWindow : HandlingTwoWindows) {
+    	  
+    	  
+    	  
+    	  if (driver.getTitle().contains("Railways Tourism,")) 
+    	  {
+			
+    		  driver.switchTo().window(HotelandLoungeWindow);
+    		  System.out.println("HotelandLounge Window Title is : "+driver.getTitle());
+    		  driver.findElement(By.xpath("//span[contains(text(),'Maharajas')]")).click();
+    		  
+    	  }
+      }
+      
+          
+      
+          Set<String> HandlingThreewindow=driver.getWindowHandles();
+          System.out.println(HandlingThreewindow.size());
+          System.out.println(HandlingThreewindow);
+          
+          
+          
+          for (String MaharajasWindows : HandlingThreewindow) {
+        	  
+        	  driver.switchTo().window(MaharajasWindows);
+        	  
+        	  if (driver.getTitle().contains("Maharajas' Express OFFICIAL WEBSITE"))   
+        		  
+        	  {
+				
+				System.out.println("MaharajasWindows Title is : "+driver.getTitle());
+        		  
+			  }
+			
+		}
+    	  
+      
+     
+
+          driver.switchTo().window(ParentWindow1);
+    	  System.out.println("ParentWindow Title is : "+driver.getTitle());
+    	  
+    	  
+		
+	
+ 
+  
+  
+  
+  } 
+  
+  }
+

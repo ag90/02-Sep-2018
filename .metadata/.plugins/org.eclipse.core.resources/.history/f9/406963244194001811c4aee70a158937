@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package SeleniumTest;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Test;
+
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
+
+/**
+ * @author guptaav
+ *
+ */
+public class JavaScript {
+	
+	
+	@Test
+	public void JS(){
+		
+		
+		JavascriptExecutor js=new JavascriptExecutor() {
+			
+			public Object executeScript(String script, Object... args) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Object executeAsyncScript(String script, Object... args) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+	}
+
+}

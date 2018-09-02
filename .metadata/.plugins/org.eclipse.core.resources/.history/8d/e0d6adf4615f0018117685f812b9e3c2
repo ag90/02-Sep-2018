@@ -1,0 +1,23 @@
+package OOP;
+
+public class InheritenceTest {
+	
+	
+
+	public static void main(String[] args) {
+		
+		InheritenceChildMaruti icm=new InheritenceChildMaruti();
+		icm.Antilock();
+		icm.Startkey();
+		icm.Staringfree();
+		icm.Break();
+		icm.Excelator();
+		icm.Gear();
+		
+
+
+		
+
+	}
+
+}

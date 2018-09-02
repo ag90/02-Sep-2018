@@ -1,0 +1,82 @@
+package SeleniumTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class SimpleSeleniumProgram {
+	
+	WebDriver driver;
+	
+ 
+@Test
+  public void Test() throws InterruptedException {
+	  
+	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+	  
+	  ChromeOptions chrome=new ChromeOptions();
+	  chrome.addArguments("disable-infobars");
+	  
+	  driver=new ChromeDriver(chrome);
+	  driver.manage().window().maximize();
+	
+	  
+	  String URL="https://www.freecrm.com";
+	  driver.get(URL);
+	  String TitleOnChrome=driver.getTitle();
+	  System.out.println("TitleOnChrome --- "+TitleOnChrome);
+	  
+	  driver.navigate().to("http://omayo.blogspot.com/");
+	  Thread.sleep(2000);
+	  driver.navigate().back();
+	  Thread.sleep(2000);
+	  driver.navigate().forward();
+	  Thread.sleep(2000);
+	  
+	  driver.findElement(By.linkText("Open a popup window")).click();
+	  
+ Point p=new Point(400, 400);
+	  
+	  driver.manage().window().setPosition(p);   
+	  
+	  Thread.sleep(5000);
+	 
+	   
+	     driver.close();
+	  
+	  
+	 
+	  System.setProperty("webdriver.firefox.marionette","C:\\Avi Gupta\\Automation\\Automation Software\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+	  //chrome.addArguments("disable-infobars");
+	  
+	  driver=new FirefoxDriver();
+	  driver.manage().window().maximize();
+	  
+	  driver.get(URL);
+	  String TitleOnFF=driver.getTitle();
+	  System.out.println("TitleOnFF --- "+TitleOnFF);
+	  driver.navigate().to("http://omayo.blogspot.com/");
+	  Thread.sleep(2000);
+	  driver.navigate().back();
+	  Thread.sleep(2000);
+	  driver.navigate().forward();
+	  Thread.sleep(2000);
+	  driver.navigate().refresh();
+	  
+	  driver.findElement(By.linkText("Open a popup window")).click();
+	  
+	 
+	  
+	  Thread.sleep(5000);
+	  driver.quit();
+	  
+	  
+	  
+	  
+	  
+  }
+}

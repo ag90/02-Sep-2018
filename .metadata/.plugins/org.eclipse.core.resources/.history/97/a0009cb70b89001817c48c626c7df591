@@ -1,0 +1,14 @@
+package TestNG;
+
+import org.testng.IAnnotationTransformer;
+import org.testng.IAnnotationTransformer2;
+
+public class MyTransformer implements IAnnotationTransformer  {
+	
+	
+
+
+
+	
+
+}

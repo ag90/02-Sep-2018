@@ -1,0 +1,14 @@
+
+public class B {
+	
+	
+	
+	public B(){
+		
+		System.out.println("Child class constructor");
+	}
+	
+	
+
+
+}

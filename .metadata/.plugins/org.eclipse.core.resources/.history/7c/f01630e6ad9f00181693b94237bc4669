@@ -1,0 +1,18 @@
+
+public class C extends A {
+
+	
+	
+	
+	public C(){
+		
+		super(200,300);
+		
+		
+	}
+	
+	
+	
+		
+	}
+

@@ -1,0 +1,33 @@
+package DemoMap;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+
+
+		HashMap<Object, Object> hm=new HashMap<Object, Object>();
+		
+		hm.put("DEV.1", "SANTOSH");
+		hm.put("DEV.2", "DEEPIKA");
+		hm.put("DEV.3", "AMAN");
+		hm.put("QA.4", "AVI");
+		hm.put("QA.5", "RAHUL");
+		
+		
+		for (Entry ent : hm.entrySet()) {
+			System.out.println(ent.getKey()+" "+ent.getValue());
+		}
+		
+		HashMap hm1=new HashMap();
+		
+		hm1.put("Chickens", "SANTOSH");
+		hm1.put("Lamaas", "AMIT");
+		hm1.put("Owls", "PRIYANKIT");
+		hm1.put("Cows", "PUNEET");
+		
+	}
+
+}

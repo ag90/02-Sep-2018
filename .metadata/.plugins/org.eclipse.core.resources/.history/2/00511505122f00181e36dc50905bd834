@@ -1,0 +1,33 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertiesFile_Practice_22_March_2018 {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+		Properties pro=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\guptaav\\Mars_workspace\\SeleniumDemo\\src\\main\\java\\PropertiesFile\\Config.properties");
+		pro.load(fis);
+		
+		System.out.println(pro.getProperty("browser"));
+		System.out.println(pro.getProperty("username"));
+		System.out.println(pro.getProperty("url"));
+		System.out.println(pro.getProperty("hyper"));
+		System.out.println(pro.getProperty("pwd"));
+		
+		
+		String BrowserName =pro.getProperty("browser");
+		
+		if(BrowserName.equalsIgnoreCase("chrome"));
+		{
+			System.setProperty("Webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+		}
+		
+
+	}
+
+}

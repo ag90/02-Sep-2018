@@ -1,0 +1,22 @@
+package OOP;
+
+public class VariablesDemo {
+	
+	
+	public void M1(){
+		
+		int i=10;
+		String str="String";//Local varables
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+
+
+		
+		
+}
+	
+}

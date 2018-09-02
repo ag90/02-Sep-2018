@@ -1,0 +1,20 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+
+
+		ArrayList ar=new ArrayList();
+		
+		ar.add("Test");
+		ar.add("DOM");
+		ar.add("Selenium");
+		ar.add('R');
+		ar.add(100);
+		ar.add(99.20);
+	}
+
+}

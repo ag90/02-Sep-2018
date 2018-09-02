@@ -1,0 +1,12 @@
+package SeleniumTest;
+
+import org.testng.annotations.Test;
+
+public class Asserts {
+  @Test
+  public void f() {
+	  
+	  
+	  
+  }
+}

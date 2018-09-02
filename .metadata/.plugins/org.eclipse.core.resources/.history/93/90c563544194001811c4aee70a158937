@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package SeleniumTest;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
+
+/**
+ * @author guptaav
+ *
+ */
+public class JavaScript {
+	
+	WebDriver driver;
+	@Test
+	public void JS(){
+		
+		
+		JavascriptExecutor js= ((JavascriptExecutor)driver);
+			
+
+	}
+}

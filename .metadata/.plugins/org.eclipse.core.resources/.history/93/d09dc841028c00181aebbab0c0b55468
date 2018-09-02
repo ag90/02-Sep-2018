@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package Com.crm.qa.utilty;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+/**
+ * @author guptaav
+ *
+ */
+public class Utility {
+	
+	 static Properties prop;
+	
+	public static void ReadData(){
+		
+		prop=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\guptaav\\Mars_workspace\\FreeCRMTest\\src\\main\\java\\Com\\crm\\qa\\Config\\ConfigFile.properties");
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

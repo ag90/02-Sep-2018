@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestNGParameterSuite]">
+  <test name="TestNGParameterTest(failed)">
+    <parameter name="password" value="test@123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Url" value="https://www.freecrm.com"/>
+    <parameter name="username" value="naveenk"/>
+    <classes>
+      <class name="TestNG.TestNGWithParameters">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- TestNG.TestNGWithParameters -->
+    </classes>
+  </test> <!-- TestNGParameterTest(failed) -->
+</suite> <!-- Failed suite [TestNGParameterSuite] -->

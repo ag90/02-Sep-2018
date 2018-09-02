@@ -1,0 +1,32 @@
+package DemoList;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+	
+	
+
+	public static void main(String[] args) {
+
+
+		ArrayList list=new ArrayList();//Object of arraylist class.
+		list.add("Java");//add method to add the element or object.
+		list.add("Selenium beginner");
+		list.add("Selenium expert");
+		list.add("Xpath");
+		list.add("Selenium expert");
+		list.add(100);
+		
+		System.out.println(list);//Directly we can print all the object in one shot.
+		
+		for (Object ele : list) { //for-each-loop or advance loop to print the element one by one:here object is class and ele is a object of object class: All element will be store in the ele object
+		   //Data types variable : array or collection	
+			System.out.println(ele);
+		}
+		
+		
+		
+		
+	}
+
+}

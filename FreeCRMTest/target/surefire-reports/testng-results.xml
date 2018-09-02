@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FreeCRM_Suite" duration-ms="45012" started-at="2018-07-27T04:34:54Z" finished-at="2018-07-27T04:35:39Z">
+    <groups>
+    </groups>
+    <test name="FreeCRM_Automation_Test" duration-ms="45012" started-at="2018-07-27T04:34:54Z" finished-at="2018-07-27T04:35:39Z">
+      <class name="Com.crm.qa.TestCases.NewContactsPageTest">
+        <test-method status="PASS" signature="ClickingOnNewContactPageTest()[pri:0, instance:Com.crm.qa.TestCases.NewContactsPageTest@2d554825]" name="ClickingOnNewContactPageTest" duration-ms="31136" started-at="2018-07-27T04:35:08Z" finished-at="2018-07-27T04:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingOnNewContactPageTest -->
+      </class> <!-- Com.crm.qa.TestCases.NewContactsPageTest -->
+      <class name="Com.crm.qa.TestCases.SignUpPageTest">
+        <test-method status="PASS" signature="LoginPageFreeCRMTitleTest()[pri:0, instance:Com.crm.qa.TestCases.SignUpPageTest@77b52d12]" name="LoginPageFreeCRMTitleTest" duration-ms="13834" started-at="2018-07-27T04:34:54Z" finished-at="2018-07-27T04:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageFreeCRMTitleTest -->
+      </class> <!-- Com.crm.qa.TestCases.SignUpPageTest -->
+    </test> <!-- FreeCRM_Automation_Test -->
+  </suite> <!-- FreeCRM_Suite -->
+</testng-results>

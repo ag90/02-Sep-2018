@@ -1,0 +1,87 @@
+package DemoList;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+	
+	
+
+	public static void main(String[] args) {
+
+
+		ArrayList list=new ArrayList();//Object of arraylist class.
+		list.add("Java");//add method to add the element or object.
+		list.add("Selenium beginner");
+		list.add("Selenium expert");
+		list.add("Xpath");
+		list.add("Selenium expert");
+		list.add(100);
+		
+		System.out.println(list);//Directly we can print all the object in one shot.
+		
+		System.out.println("****************************************");
+		
+		for (Object ele : list) { //for-each-loop or advance loop to print the element one by one:here object is data-type and ele is a data-type of variable: All element will be store in the ele list
+		   //Data-type variable : array or collection	
+			System.out.println(ele);
+		}
+		
+		System.out.println("****************************************");
+		
+		ArrayList list1=new ArrayList();
+		list1.add("Dr. Lal Path");
+		list1.add("SRL Digno.");
+		list1.add("Narayan Path");
+		list1.add("Parak Path");
+		list1.add("Dr. Lal Path");
+		list1.add("SRL Digno.");
+		
+		System.out.println(list1.size());//Size method to calculate the size of list1 element.
+		
+		
+		System.out.println("****************************************");
+		
+		ArrayList list2=new ArrayList();
+		list2.add("Hcl");
+		list2.add("Infosys");
+		list2.add("TCS");
+		list2.add("CDEC");
+		list2.add("DR.KK GUPTA");
+		
+		
+		System.out.println(list2.get(2));//get(int index) method to fecth the particular element
+		
+		System.out.println("****************************************");
+		
+		ArrayList list3=new ArrayList();
+		list3.add("DR.KK GUPTA");
+		list3.add("DR.VIVEK GUPTA");
+		list3.add("DR.NEHA GUPTA");
+		list3.add("DR.SHASHANK GUPTA");
+		list3.add("DR.RUCHI GUPTA");
+		
+		ArrayList list4=new ArrayList();
+		list4.add("DR.KK GUPTA");
+		list4.add("DR.VIVEK GUPTA");
+		list4.add("DR.NEHA GUPTA");
+		
+		System.out.println(list4.contains("DR.VIVEK GUPTA"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package OOP;
+
+public class MethodOverRidding {
+	
+	public void SelfStart(){
+		System.out.println("--SelfStart--");
+	}
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

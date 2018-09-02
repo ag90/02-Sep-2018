@@ -1,0 +1,12 @@
+package HashMap;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+
+
+		java.util.HashMap<K, V>
+		
+	}
+
+}

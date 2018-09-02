@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package Com.crm.qa.utilty;
+
+import java.util.Properties;
+
+/**
+ * @author guptaav
+ *
+ */
+public class Utility {
+	
+	 Properties prop;
+	
+	public static void ReadData(){
+		
+		
+		
+	}
+	
+	
+	
+
+}

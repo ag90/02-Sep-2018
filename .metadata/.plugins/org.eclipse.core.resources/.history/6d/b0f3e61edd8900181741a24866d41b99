@@ -1,0 +1,106 @@
+package TestNG;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.Set;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver.Navigation;
+import org.openqa.selenium.WebDriver.Options;
+import org.openqa.selenium.WebDriver.TargetLocator;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class ScreenShotBase {
+
+	    WebDriver driver;
+	     ChromeOptions Options;
+	
+	 public  void  failure()    {
+		
+		 WebDriver driver=new WebDriver() {
+			
+			public TargetLocator switchTo() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public void quit() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			public Navigation navigate() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Options manage() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Set<String> getWindowHandles() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public String getWindowHandle() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public String getTitle() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public String getPageSource() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public String getCurrentUrl() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public void get(String url) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			public List<WebElement> findElements(By by) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public WebElement findElement(By by) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public void close() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		 
+		 File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		   try {
+			FileUtils.copyFile(file, new File(".//TakeScreenshots//"+"FREEE1"+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	 }
+		
+	
+
+}

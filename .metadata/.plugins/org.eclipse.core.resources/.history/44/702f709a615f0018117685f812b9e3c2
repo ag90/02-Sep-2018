@@ -1,0 +1,32 @@
+package OOP;
+
+public class InheritenceBaseCar {
+	
+	
+	
+	public void Startkey(){
+		
+	System.out.println("StartKey Of Car");
+		
+	}
+	
+	public void Gear(){
+		
+		System.out.println("Gear Of Car");
+	}
+	
+	
+	public void Excelator(){
+		
+		System.out.println("AExcelator Of Car");
+	}
+	
+	
+	public void Break(){
+		
+		System.out.println("Break Of Car");
+	}
+	
+
+
+}

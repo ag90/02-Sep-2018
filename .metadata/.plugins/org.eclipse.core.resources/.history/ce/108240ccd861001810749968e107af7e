@@ -1,0 +1,59 @@
+package OOP;
+
+public class MethodOverRidding extends MethodOverRidden{
+	
+	public void SelfStart(){
+		System.out.println("--SelfStart Method--");
+	}
+
+	public void SelfLocking(){
+		System.out.println("--SelfLocking Method--");
+	}
+	
+	public void Start(){
+		System.out.println("SelfStart Method");
+		
+	}
+	
+	public void Refuel(){
+		System.out.println("SelfRefuel Method");
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+
+		MethodOverRidden mor=new MethodOverRidden();
+		mor.Refuel();
+		mor.Start();
+		
+		MethodOverRidding more=new MethodOverRidding();
+		more.SelfStart();
+		more.SelfLocking();
+		more.Start();
+		more.Refuel();
+		
+		//Top Casting
+		MethodOverRidden mo=new MethodOverRidding();
+		mo.Start();
+		mo.Refuel();
+		//mo.SelfStart();we cannot call child class method becuase we are creating reference variable of parent class and creating object of child class.
+		
+		
+		//MethodOverRidding mr=MethodOverRidden();//Child class reference variable unable to hold Parent class object.
+		
+		//Down Casting
+		/*MethodOverRidding mr=(MethodOverRidding)new MethodOverRidden();
+		mr.Start();
+		mr.Refuel();
+		mr.SelfLocking();
+		mr.SelfStart();*/
+		
+		
+		
+		
+	}
+
+}

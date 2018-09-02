@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGParameterSuite" thread-count="2">
+
+<test name="TestNGParameterTest">
+
+<parameter name="browser" value="chrome">
+
+ </parameter>
+     
+<parameter name="Url" value="https://www.freecrm.com">
+
+</parameter>
+
+<parameter name="username" value="naveenk">
+
+</parameter>
+
+<parameter name="password" value="test@123">
+
+</parameter>
+
+
+<classes>
+
+<class name="TestNG.TestNGWithParameters">
+
+
+</class>
+
+</classes>
+
+
+
+</test>
+
+
+</suite>

@@ -1,0 +1,18 @@
+package OOP;
+
+public class ConcatenationConceptDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i=100;
+		int j=50;
+		
+		String SeleniumTool="Selenium";
+		String Proglang="Java";
+		
+		System.out.println(i);
+		System.out.println(j);
+	}
+
+}

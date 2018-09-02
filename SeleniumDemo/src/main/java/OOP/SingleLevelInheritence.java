@@ -1,0 +1,43 @@
+package OOP;
+
+public class SingleLevelInheritence extends InheritenceBase {
+
+
+	
+	public void Antilock(){
+		System.out.println("Maruti Antilock Method");
+		Startkey();//Aquaring the properties of parent class in child class by extends keywords
+		Gear();//Aquaring the properties of parent class in child class by extends keywords
+	}
+	
+	public void Staringfree(){
+		System.out.println("Maruti Staringfree Method");
+		Excelator();//Aquaring the properties of parent class in child class by extends keywords
+		Break();//Aquaring the properties of parent class in child class by extends keywords
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		SingleLevelInheritence icsd=new SingleLevelInheritence();//if we are creating child class of object we can call both classes of method parent as well child.
+		icsd.Antilock();//child class method
+		icsd.Staringfree();//child class method
+		icsd.Break();//parent class method
+		icsd.Excelator();//parent class method
+		icsd.Gear();//parent class method
+		icsd.Startkey();//parent class method
+	
+		
+		InheritenceBase ibc=new InheritenceBase();//if we are creating parent class of object we can call only parent class of method.
+		 
+		
+		
+
+		
+		
+	}
+
+
+}

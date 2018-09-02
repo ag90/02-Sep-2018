@@ -1,0 +1,9 @@
+package SeleniumTest;
+
+import org.testng.annotations.Test;
+
+public class PropertiesConfigClass {
+  @Test
+  public void f() {
+  }
+}

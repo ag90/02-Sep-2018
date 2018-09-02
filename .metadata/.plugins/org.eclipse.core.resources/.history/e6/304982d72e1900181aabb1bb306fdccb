@@ -1,0 +1,12 @@
+package demo2;
+import org.testng.annotations.Test;
+
+public class Test {
+	
+	@Test
+	public void hello()
+	{
+		
+	}
+
+}

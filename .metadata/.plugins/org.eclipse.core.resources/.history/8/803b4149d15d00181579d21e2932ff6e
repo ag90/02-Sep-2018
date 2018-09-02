@@ -1,0 +1,31 @@
+package OOP;
+
+public class VariablesDemo {
+	
+	int k=90;
+	String HyperCity="HYPERCITY";//non static variables
+	
+	
+	public void M1(){
+		
+		int i=10;
+		String str="String";//both are local variables
+		System.out.println(str+i);
+		System.out.println(k);
+		System.out.println(HyperCity);
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		VariablesDemo vd=new VariablesDemo();
+		vd.M1();
+
+
+		
+		
+}
+	
+}

@@ -1,0 +1,24 @@
+#Data Configuration File
+##################################
+
+#1stbrowser=Chrome
+2ndbrowser=Firefox
+
+
+#Global configuration
+Url=https://www.facebook.com
+Username=9866740237
+Password=9866740237@paytm.com
+
+####################################
+#Object Elements
+UsernameXpath=//input[@name='email']
+PasswordXpath=//input[@name='pass']
+LogInButton=//input[@type='submit']
+
+####################################
+#Data
+UsernameData=9866740237
+PasswordData=9866740237@paytm.com
+
+

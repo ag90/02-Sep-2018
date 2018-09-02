@@ -1,0 +1,22 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+public class Properties {
+
+	public static void main(String[] args) throws IOException {
+
+	    java.util.Properties prop=new java.util.Properties();//Properties is a class of java
+		FileInputStream fis=new FileInputStream
+		("C:\\Users\\guptaav\\Mars_workspace\\SeleniumDemo"
+		+ "\\src\\main\\java\\PropertiesFile\\"
+		+ "Config.properties");//FileInputStream is a class of java where we have to put location of properties
+		
+	    prop.load(fis);
+	    
+	    System.out.println(prop.getProperty("username"));
+	    System.out.println(prop.getProperty("password"));
+		
+	}
+
+}

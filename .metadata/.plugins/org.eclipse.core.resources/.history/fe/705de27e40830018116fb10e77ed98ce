@@ -1,0 +1,32 @@
+package SeleniumTest;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class FindElementVSFindElements {
+	
+	WebDriver driver;
+	
+	
+  @Test
+  public void f() {
+	  
+	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+	  driver=new ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.get("https://www.freecrm.com");
+	  
+	 WebElement SingleElement= driver.findElement(By.xpath("//a[@class='navbar-brand']"));
+	 System.out.println(SingleElement.isDisplayed());
+	 
+	 List<WebElement> MultipleElement= driver.findElements(By.tagName("a"));
+	 System.out.println(MultipleElement);
+	 
+	 
+  }
+}

@@ -1,0 +1,19 @@
+package OOP;
+
+public class InheritenceTest {
+	
+	
+
+	public static void main(String[] args) {
+		
+		InheritenceChildMaruti icm=new InheritenceChildMaruti();
+		icm.Antilock();
+		icm.Staringfree();
+		icm.Staringfree();
+
+
+		
+
+	}
+
+}

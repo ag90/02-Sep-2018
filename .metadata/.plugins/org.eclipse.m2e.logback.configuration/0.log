@@ -1,0 +1,108 @@
+2018-08-19 22:26:39,686 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-19 22:26:39,691 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\main\resources
+2018-08-19 22:26:39,694 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-19 22:26:39,695 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\test\resources
+2018-08-19 22:26:46,325 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-19 22:26:46,326 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-08-19 22:26:46,328 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-19 22:26:46,328 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-08-28 17:10:41,970 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:10:41,981 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\main\resources
+2018-08-28 17:10:41,984 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:10:41,984 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\test\resources
+2018-08-28 17:10:50,624 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:10:50,625 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\main\resources
+2018-08-28 17:10:50,626 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:10:50,627 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\test\resources
+2018-08-28 17:11:07,462 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:11:07,463 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-08-28 17:11:07,468 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-28 17:11:07,469 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-08-29 22:43:18,162 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-29 22:43:18,171 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\main\resources
+2018-08-29 22:43:18,173 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-29 22:43:18,173 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\test\resources
+2018-09-02 14:09:34,334 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:09:34,343 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\main\resources
+2018-09-02 14:09:34,346 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:09:34,346 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\AppiumDemo\src\test\resources
+2018-09-02 14:09:43,606 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:09:43,606 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\main\resources
+2018-09-02 14:09:43,608 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:09:43,608 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\FreeCRMTest\src\test\resources
+2018-09-02 14:10:12,816 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:12,817 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:10:12,823 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:12,823 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:10:15,510 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:15,511 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:10:15,512 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:15,512 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:10:17,836 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:17,836 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:10:17,837 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:17,838 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:10:23,365 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:23,366 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:10:23,368 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:23,368 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:10:28,623 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:28,623 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:10:28,625 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:10:28,625 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:11:39,769 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:11:39,770 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:11:39,773 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:11:39,773 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:12:08,412 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:12:08,413 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:12:08,415 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:12:08,416 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:12:50,287 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:12:50,288 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:12:50,289 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:12:50,293 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:13:15,495 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:13:15,495 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:13:15,496 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:13:15,497 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:16:50,068 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:16:50,069 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:16:50,070 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:16:50,071 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:16:59,947 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:16:59,948 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:16:59,949 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:16:59,949 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:17:09,224 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:09,224 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:17:09,226 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:09,226 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:17:13,040 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:13,041 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:17:13,042 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:13,043 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:17:37,214 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:37,214 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:17:37,218 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:37,218 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:17:58,509 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:58,509 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:17:58,510 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:17:58,511 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:18:04,508 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:18:04,508 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:18:04,510 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:18:04,510 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:18:42,233 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:18:42,233 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:18:42,235 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:18:42,235 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 14:19:35,871 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:19:35,872 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 14:19:35,875 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 14:19:35,875 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources
+2018-09-02 15:54:35,587 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 15:54:35,588 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\resources
+2018-09-02 15:54:35,590 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-02 15:54:35,591 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\test\resources

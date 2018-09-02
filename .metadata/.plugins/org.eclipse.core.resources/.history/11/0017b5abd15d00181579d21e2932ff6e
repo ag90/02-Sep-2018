@@ -1,0 +1,40 @@
+package OOP;
+
+public class VariablesDemo {
+	
+	int k=90;
+	String HyperCity="HYPERCITY";//non static variables
+	
+	
+	public void M1(){
+		
+		int i=10;
+		String str="String";//both are local variables
+		System.out.println(str+i);
+		System.out.println(k);
+		System.out.println(HyperCity);
+		
+		
+	}
+	
+	static int y=60;
+	static String BigBazar="BIGBAZAR";//both are static variables
+	
+	public static void M2(){
+		System.out.println(y);
+		System.out.println(VariablesDemo.BigBazar);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		VariablesDemo vd=new VariablesDemo();
+		vd.M1();
+
+
+		
+		
+}
+	
+}

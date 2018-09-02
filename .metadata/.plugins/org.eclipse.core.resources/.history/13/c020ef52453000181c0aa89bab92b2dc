@@ -1,0 +1,16 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class PropertiesFile_Practice_25_March_2018 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+
+		Properties pro=new Properties();
+		FileInputStream fis=new FileInputStream("C:\Users\guptaav\Mars_workspace\SeleniumDemo\src\main\java\PropertiesFile\Config_25_March_2018.properties");
+	}
+
+}

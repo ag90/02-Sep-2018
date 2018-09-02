@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31926" started-at="2018-09-02T10:24:42Z" finished-at="2018-09-02T10:25:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31926" started-at="2018-09-02T10:24:42Z" finished-at="2018-09-02T10:25:14Z">
+      <class name="SeleniumGrid.Grid_02_Sep_2018">
+        <test-method status="PASS" signature="testonGrid()[pri:0, instance:SeleniumGrid.Grid_02_Sep_2018@685cb137]" name="testonGrid" duration-ms="31897" started-at="2018-09-02T15:54:42Z" finished-at="2018-09-02T15:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testonGrid -->
+      </class> <!-- SeleniumGrid.Grid_02_Sep_2018 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

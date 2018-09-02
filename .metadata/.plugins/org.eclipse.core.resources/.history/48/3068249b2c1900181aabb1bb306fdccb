@@ -1,0 +1,13 @@
+package demo;
+
+import org.testng.annotations.Test;
+
+public class demo {
+	
+	@Test
+	public void m1()
+	{
+		System.out.println("M1 Method Printed");
+	}
+
+}

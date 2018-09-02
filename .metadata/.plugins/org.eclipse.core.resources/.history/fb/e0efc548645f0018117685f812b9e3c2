@@ -1,0 +1,24 @@
+package OOP;
+
+public class InheritenceChildMaruti extends InheritenceBaseCar {
+
+
+	
+	public void Antilock(){
+		System.out.println("Maruti Antilock Method");
+	}
+	
+	public void Staringfree(){
+		System.out.println("Maruti Staringfree Method");
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+		
+		
+	}
+
+
+}

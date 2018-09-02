@@ -1,0 +1,23 @@
+package OOP;
+
+public class InheritenceChildMaruti {
+
+
+
+	public void Startkey(){
+		System.out.println("Maruti Startkey Method");
+	}
+	
+	public void Antilock(){
+		System.out.println("Maruti Antilock Method");
+	}
+	
+	public void Staringfree(){
+		System.out.println("Maruti Staringfree Method");
+	}
+
+
+		
+	}
+
+

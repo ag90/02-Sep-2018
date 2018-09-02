@@ -1,0 +1,37 @@
+package Set;
+
+import java.util.HashSet;
+
+public class Hashset {
+
+	public static void main(String[] args) {
+
+
+		HashSet set1=new HashSet();
+		
+		set1.add("Test");
+		set1.add("Selenium");
+		set1.add("POM");
+		set1.add("Data driven");
+		set1.add("Test");
+		set1.add("Java");
+		
+		for (Object obj1 : set1.size()) {
+			System.out.println(obj1);
+		}
+		
+		System.out.println("*****************");
+		
+         HashSet set2=new HashSet();
+		
+		set2.add("Test");
+		set2.add("Selenium");
+		set2.add("POM");
+		set2.add("Data driven");
+		set2.add("Test");
+		set2.add("Java");
+		
+		System.out.println(set2.size());
+	}
+
+}

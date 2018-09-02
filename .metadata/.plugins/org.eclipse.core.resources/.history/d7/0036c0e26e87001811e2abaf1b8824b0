@@ -1,0 +1,53 @@
+package SeleniumTest;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class HandleCalandar {
+	
+	WebDriver driver;
+	
+	
+  @Test
+  public void f() throws InterruptedException {
+	  
+	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+	  driver=new ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.get("https://www.freecrm.com");
+	  
+	  driver.findElement(By.name("username")).sendKeys("naveenk");
+	  driver.findElement(By.name("password")).sendKeys("test@123");
+	  Thread.sleep(2000);
+	  driver.findElement(By.xpath("//input[@type='submit']")).click();
+	  
+	  driver.switchTo().frame(1);
+	  Actions act=new Actions(driver);
+	  act.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Calendar')]"))).click().build().perform();
+	  Thread.sleep(2000);
+	  
+	  List<WebElement> calendar=driver.findElements(By.xpath("//table[@class='crmcalendar']"));
+	  System.out.println(calendar.size());
+	  
+	  for (WebElement Handles : calendar) {
+		  
+		  System.out.println(Handles.getText());
+		  
+		if (Handles.equals("20 ")) {
+			
+			Handles.click();
+		}
+		
+	}
+	  
+	  
+	  
+	  
+  }
+}

@@ -1,0 +1,15 @@
+package OOP;
+
+public class MethodOverRidden {
+	
+	
+	public void Start(){
+		System.out.println("Start Method");
+	}
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

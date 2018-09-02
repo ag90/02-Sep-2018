@@ -1,0 +1,38 @@
+package SeleniumTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class PropertiesConfigClass {
+	
+	WebDriver driver;
+	
+  @Test
+  public void f() {
+	  
+	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+	  driver=new ChromeDriver();
+	  driver.manage().window().maximize();
+	  driver.get("");
+	  
+	 WebElement Username= driver.findElement(By.name(""));
+	 Username.sendKeys("");
+	 
+	 WebElement Password=driver.findElement(By.name(""));
+	 Password.sendKeys("");
+	 
+	 WebElement LoginButton=driver.findElement(By.xpath(""));
+	 LoginButton.click();
+	 
+	 WebElement SearchBox=driver.findElement(By.name(""));
+	 SearchBox.sendKeys("");
+	 
+	 WebElement SearchButton=driver.findElement(By.name(""));
+	 SearchButton.click();
+	 
+	 
+  }
+}

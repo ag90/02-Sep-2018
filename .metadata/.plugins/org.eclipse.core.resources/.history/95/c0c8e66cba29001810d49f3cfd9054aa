@@ -1,0 +1,42 @@
+package HashMap;
+
+import java.util.HashMap;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+
+
+		HashMap<Integer, String> hm=new HashMap<Integer, String>();
+		
+		hm.put(1,"Naveen");
+		hm.put(2,"Tom");
+		hm.put(3,"Avi");
+		hm.put(4,"Vibha");
+		
+		System.out.println(hm.size());
+
+		System.out.println("**********************");
+		
+        HashMap<Integer, String> hm1=new HashMap<Integer, String>();
+		
+		hm1.put(1,"Naveen");
+		hm1.put(2,"Tom");
+		hm1.put(3,"Avi");
+		hm1.put(4,"Vibha");
+		
+		System.out.println(hm1.get(3));
+		
+		System.out.println("**********************");
+		
+        HashMap<Integer, String> hm1=new HashMap<Integer, String>();
+		
+		hm1.put(1,"Naveen");
+		hm1.put(2,"Tom");
+		hm1.put(3,"Avi");
+		hm1.put(4,"Vibha");
+		
+		
+	}
+
+}

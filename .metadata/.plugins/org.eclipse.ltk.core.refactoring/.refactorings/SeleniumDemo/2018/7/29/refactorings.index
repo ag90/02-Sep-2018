@@ -1,0 +1,18 @@
+1531641983204	Rename type 'ExpliciWait'
+1531641991245	Rename type 'ImplicitWait'
+1531645942208	Rename type 'TestNgSequence'
+1531690428122	Delete element
+1531690450444	Rename type 'NewTest'
+1531691053970	Rename type 'TestNGInvocationCount'
+1531691067957	Rename type 'TestNGGroups'
+1531691084478	Rename type 'TestNWithGInvocationCount'
+1531725830994	Copy file
+1531725857611	Delete element
+1531725880269	Copy file
+1531725882413	Delete element
+1531756145611	Delete element
+1531756244743	Delete element
+1531761697142	Delete element
+1531761700082	Delete element
+1531763233764	Rename resource 'RetryAnalyzer.XML'
+1531763800257	Infer generic type arguments

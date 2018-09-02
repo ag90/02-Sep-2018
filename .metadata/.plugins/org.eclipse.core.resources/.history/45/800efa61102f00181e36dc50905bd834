@@ -1,0 +1,22 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertiesFile_Practice_22_March_2018 {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+		Properties pro=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\guptaav\\Mars_workspace\\SeleniumDemo\\src\\main\\java\\PropertiesFile\\Config.properties");
+		pro.load(fis);
+		
+		System.out.println(pro.getProperty("browser"));
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package OOP;
+
+public class MethodOverRidding extends MethodOverRidden{
+	
+	public void SelfStart(){
+		System.out.println("--SelfStart Method--");
+	}
+
+	public void SelfLocking(){
+		System.out.println("--SelfLocking Method--");
+	}
+	
+	public void Start(){
+		System.out.println("SelfStart Method");
+		
+	}
+	
+	public void Refuel(){
+		System.out.println("SelfRefuel Method");
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

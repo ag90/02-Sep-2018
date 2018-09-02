@@ -1,0 +1,64 @@
+package DemoMap;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+
+
+		HashMap<Object, Object> hm=new HashMap<Object, Object>();
+		
+		hm.put("DEV.1", "SANTOSH");
+		hm.put("DEV.2", "DEEPIKA");
+		hm.put("DEV.3", "AMAN");
+		hm.put("QA.4", "AVI");
+		hm.put("QA.5", "RAHUL");
+		hm.put(null, "MANISH");
+		
+		
+		for (Entry ent : hm.entrySet()) {
+			System.out.println(ent.getKey()+" "+ent.getValue());
+		}
+		
+		
+		System.out.println("*************************************************");
+		
+		
+		HashMap hm1=new HashMap();
+		
+		hm1.put("Chickens", "SANTOSH");
+		hm1.put("Lamaas", "AMIT");
+		hm1.put("Owls", "PRIYANKIT");
+		hm1.put("Cows", "PUNEET");
+		hm1.put("Piglets", "MANOJ");
+		
+		System.out.println(hm1.get("Chickens"));
+		
+		System.out.println("*************************************************");
+		
+         HashMap hm2=new HashMap();
+	    
+	     hm2.put("E.A", "GAURAV");
+	     hm2.put("S.A", "DEVIPAD");
+	     hm2.put("G.PM", "RAJIV");
+	     hm2.put("PM", "KRISHAN");
+	     hm2.put("P.M", "MRIDUL");
+	     hm2.put("E.A", "AMIT");
+	     hm2.put(null, "MANISH");
+	     
+	     System.out.println(hm2.size());
+	     
+		 System.out.println("*************************************************");
+
+	     
+	     
+	     
+		
+	}
+	
+	
+	    
+
+}

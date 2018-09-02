@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+
+
+		ArrayList ar=new ArrayList();
+	}
+
+}

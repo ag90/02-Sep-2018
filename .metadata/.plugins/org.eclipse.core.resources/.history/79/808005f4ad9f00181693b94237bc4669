@@ -1,0 +1,20 @@
+
+public class C extends A {
+
+	
+	
+	
+	public C(){
+		
+		super(200,300);
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+
+		
+		
+	}
+}

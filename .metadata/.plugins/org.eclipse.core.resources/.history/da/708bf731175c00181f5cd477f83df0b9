@@ -1,0 +1,47 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Properties_20_05_2018 {
+	WebDriver driver;
+	Properties prop;
+	
+	@Test(priority=0)
+	public void PropertiesFileData() throws IOException{
+		prop=new Properties();
+		FileInputStream fis=new FileInputStream("C:\\Users\\guptaav\\Mars_workspace\\SeleniumDemo\\src\\main\\java\\PropertiesFile\\20_05_2018_Config_Data.properties");
+		prop.load(fis);
+		
+		System.out.println(prop.getProperty("Url"));
+		System.out.println(prop.getProperty("USERNAME"));
+		System.out.println(prop.getProperty("Password"));
+	}
+		
+		@Test(priority=1)
+		public void PropertiesClassExecution() throws InterruptedException{
+		System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(prop.getProperty("Url"));
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath(prop.getProperty("Searchbox_Xpath"))).sendKeys(prop.getProperty("Searchbox_Data"));
+		driver.findElement(By.xpath(prop.getProperty("Searchbutton_Xpath"))).click();
+		Thread.sleep(50000);
+		driver.quit();
+		
+		
+		
+		}
+	
+		
+	}
+
+

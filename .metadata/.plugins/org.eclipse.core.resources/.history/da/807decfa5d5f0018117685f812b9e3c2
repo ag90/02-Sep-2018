@@ -1,0 +1,15 @@
+package OOP;
+
+public class InheritenceChildMaruti {
+
+
+
+	public void Strtkey(){
+		System.out.println("Maruti Start Method");
+	}
+
+
+		
+	}
+
+

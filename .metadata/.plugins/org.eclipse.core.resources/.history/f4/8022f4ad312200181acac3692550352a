@@ -1,0 +1,71 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept1 {
+
+	public static void main(String[] args) {
+
+
+		ArrayList alist=new ArrayList();
+		
+		alist.add("Selenium");//0
+		alist.add("Java");//1
+		alist.add("Page object Model");//2
+		alist.add("Selenium");//3
+		alist.add("Sikuli");//4
+		alist.add('T');//5
+		alist.add(100);//6
+		alist.add(90.0900);//
+		
+		for (Object obj : alist) {
+			
+			System.out.println(obj);
+		}
+		System.out.println(alist.size());//to fetch the array list size
+		
+		System.out.println(alist);
+		
+		System.out.println(alist.get(2));//to fetch the specific element of array list on the basis of index.
+		System.out.println(alist.remove(7));//to remove specific element from array list.
+		
+		System.out.println(alist);
+		
+		System.out.println(alist.isEmpty());//to verify whether array list empty or not.
+		System.out.println(alist.contains('T'));//to verify whether specific element is available or not in array list.
+		
+		ArrayList alist1=new ArrayList();
+		alist1.add("Test");
+		alist1.add("Data");
+		
+		System.out.println(alist1);
+		
+		System.out.println(alist.addAll(alist1));//to combine the element in array list.
+		
+		System.out.println(alist);
+		
+		System.out.println(alist.removeAll(alist1));
+		
+		System.out.println(alist);
+		
+		alist.retainAll(alist1);
+		
+		System.out.println(alist);
+		
+		
+		
+		
+		
+		
+		
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+
+	}

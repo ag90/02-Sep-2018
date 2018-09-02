@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM_Suite]">
+  <listeners>
+    <listener class-name="Com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="FreeCRM_Automation_Test(failed)">
+    <classes>
+      <class name="Com.crm.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="FreeCRMTitleTest"/>
+        </methods>
+      </class> <!-- Com.crm.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- FreeCRM_Automation_Test(failed) -->
+</suite> <!-- Failed suite [FreeCRM_Suite] -->

@@ -1,0 +1,49 @@
+
+public class A {
+	
+	
+	int i;
+	
+	int w;
+	int y;
+	int n;
+	
+	public A(){
+		
+		System.out.println(i);
+		System.out.println("AVI");
+	}
+	
+	public A(int j){
+		
+		System.out.println(j);
+	}
+    public A(int p,int k){
+		
+		System.out.println(p+k);
+	}
+	
+	public A(int w,int y,int n){
+		
+		this.w=w;
+		this.y=y;
+		this.n=n;
+		
+		System.out.println(w+y+n);
+		
+	}
+
+
+
+
+   public static void main(String[]args){
+	   
+	   A a=new A();
+	   A a1=new A(5);
+	   A a2=new A(10, 20);
+	   A a3=new A(50, 100, 200);
+	   
+	   
+   }
+   
+  }
