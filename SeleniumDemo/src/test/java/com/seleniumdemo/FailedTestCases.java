@@ -23,6 +23,7 @@ public class FailedTestCases extends FailedTestcasesScreenshot {
 		  Options.addArguments("disable-infobars");
 		  driver=new ChromeDriver(Options);
 		  driver.manage().window().maximize();
+	          driver.manage().deleteAllCookies();
 		  driver.get("http://www.freecrm.com");
 		
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("naveenk");
